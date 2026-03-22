@@ -8,9 +8,11 @@ interface ImageModalProps {
   onClose: () => void;
   onNext?: () => void;
   onPrev?: () => void;
+  nextCharacter?: Character | null;
+  prevCharacter?: Character | null;
 }
 
-export function ImageModal({ character, onClose, onNext, onPrev }: ImageModalProps) {
+export function ImageModal({ character, onClose, onNext, onPrev, nextCharacter, prevCharacter }: ImageModalProps) {
   // Handle keyboard events
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -22,6 +24,19 @@ export function ImageModal({ character, onClose, onNext, onPrev }: ImageModalPro
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [character, onClose, onNext, onPrev]);
+
+  // Preload adjacent images for instant navigation
+  useEffect(() => {
+    if (!character) return;
+    if (nextCharacter) {
+      const img = new Image();
+      img.src = nextCharacter.path;
+    }
+    if (prevCharacter) {
+      const img = new Image();
+      img.src = prevCharacter.path;
+    }
+  }, [character, nextCharacter, prevCharacter]);
 
   if (!character) return null;
 
@@ -60,9 +75,10 @@ export function ImageModal({ character, onClose, onNext, onPrev }: ImageModalPro
           className="relative max-w-5xl max-h-full w-full h-full flex flex-col items-center justify-center p-4"
           onClick={(e) => e.stopPropagation()}
         >
-          <img 
-            src={character.path} 
+          <img
+            src={character.path}
             alt={character.filename}
+            decoding="async"
             className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
           />
           <div className="mt-6 text-center">

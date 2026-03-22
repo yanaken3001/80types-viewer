@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import type { Character } from '../types';
+import { OptimizedImage } from './OptimizedImage';
 
 interface CompareProps {
   characters: Character[];
@@ -76,7 +77,7 @@ export function Compare({ characters, onSelectCharacter }: CompareProps) {
               key={char.id}
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
+              transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
               className="bg-slate-900/40 rounded-2xl overflow-hidden glass-panel flex flex-col cursor-pointer hover:shadow-lg transition-shadow"
               onClick={() => onSelectCharacter(char)}
             >
@@ -84,8 +85,8 @@ export function Compare({ characters, onSelectCharacter }: CompareProps) {
                 <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">{char.category}</span>
               </div>
               <div className="bg-slate-950/30 flex items-center justify-center">
-                <img 
-                  src={char.path} 
+                <OptimizedImage
+                  src={char.path}
                   alt={char.filename}
                   className="w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500 will-change-transform"
                 />

@@ -118,11 +118,13 @@ export default function App() {
         )}
       </main>
 
-      <ImageModal 
-        character={selectedChar} 
-        onClose={() => setSelectedChar(null)} 
+      <ImageModal
+        character={selectedChar}
+        onClose={() => setSelectedChar(null)}
         onNext={handleNext}
         onPrev={handlePrev}
+        nextCharacter={selectedChar ? activeCharList[activeCharList.findIndex(c => c.id === selectedChar.id) + 1] ?? null : null}
+        prevCharacter={selectedChar ? activeCharList[activeCharList.findIndex(c => c.id === selectedChar.id) - 1] ?? null : null}
       />
     </div>
   );

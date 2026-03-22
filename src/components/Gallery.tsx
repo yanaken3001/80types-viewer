@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ImageIcon } from 'lucide-react';
 import type { Character } from '../types';
+import { OptimizedImage, preloadImage } from './OptimizedImage';
 
 interface GalleryProps {
   characters: Character[];
@@ -40,16 +41,16 @@ export function Gallery({ characters, onSelectCharacter }: GalleryProps) {
           key={char.id}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: index * 0.05 }}
+          transition={{ duration: 0.3, delay: Math.min(index * 0.02, 0.3) }}
           className="group relative cursor-pointer flex flex-col glass-panel rounded-2xl overflow-hidden hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(99,102,241,0.3)] transition-all duration-300"
+          onMouseEnter={() => preloadImage(char.path)}
           onClick={() => onSelectCharacter(char)}
         >
           <div className="overflow-hidden bg-slate-800/20 flex items-center justify-center">
-            <img 
-              src={char.path} 
+            <OptimizedImage
+              src={char.path}
               alt={char.filename}
               className="w-full h-auto object-contain filter group-hover:brightness-110 transition-all duration-500 will-change-transform"
-              loading="lazy"
             />
           </div>
           <div className="p-4 border-t border-white/5 bg-slate-900/40">
