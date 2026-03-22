@@ -7,6 +7,7 @@ import { ImageModal } from './components/ImageModal';
 import { LayoutGrid, ArrowLeftRight } from 'lucide-react';
 
 export default function App() {
+  const characters = dynamicCharacters as Character[];
   const categories = useMemo(() => {
     const cats = Array.from(new Set(characters.map(c => c.category)));
     return cats.sort((a, b) => {
