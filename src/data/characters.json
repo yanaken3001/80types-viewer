@@ -1,0 +1,240 @@
+[
+  {
+    "id": "クリーチャー2D-PP チームの太陽_2D.png",
+    "filename": "PP チームの太陽_2D.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC2D/PP%20%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E5%A4%AA%E9%99%BD_2D.png",
+    "type": "PP",
+    "category": "クリーチャー2D"
+  },
+  {
+    "id": "クリーチャー3D-AA 歩くWikipedia.png",
+    "filename": "AA 歩くWikipedia.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/AA%20%E6%AD%A9%E3%81%8FWikipedia.png",
+    "type": "AA",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-AD 氷の頭脳.png",
+    "filename": "AD 氷の頭脳.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/AD%20%E6%B0%B7%E3%81%AE%E9%A0%AD%E8%84%B3.png",
+    "type": "AD",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-AI 積み上げの達人.png",
+    "filename": "AI 積み上げの達人.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/AI%20%E7%A9%8D%E3%81%BF%E4%B8%8A%E3%81%92%E3%81%AE%E9%81%94%E4%BA%BA.png",
+    "type": "AI",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-AP 頼れる右腕.png",
+    "filename": "AP 頼れる右腕.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/AP%20%E9%A0%BC%E3%82%8C%E3%82%8B%E5%8F%B3%E8%85%95.png",
+    "type": "AP",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-DA 静かな司令塔.png",
+    "filename": "DA 静かな司令塔.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/DA%20%E9%9D%99%E3%81%8B%E3%81%AA%E5%8F%B8%E4%BB%A4%E5%A1%94.png",
+    "type": "DA",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-DD ゲームチェンジャー.png",
+    "filename": "DD ゲームチェンジャー.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/DD%20%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC.png",
+    "type": "DD",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-DI 即決エンジン.png",
+    "filename": "DI 即決エンジン.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/DI%20%E5%8D%B3%E6%B1%BA%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3.png",
+    "type": "DI",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-DP 大将気質.png",
+    "filename": "DP 大将気質.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/DP%20%E5%A4%A7%E5%B0%86%E6%B0%97%E8%B3%AA.png",
+    "type": "DP",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-IA 隠れ実力者.png",
+    "filename": "IA 隠れ実力者.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/IA%20%E9%9A%A0%E3%82%8C%E5%AE%9F%E5%8A%9B%E8%80%85.png",
+    "type": "IA",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-ID 深掘りマニア.png",
+    "filename": "ID 深掘りマニア.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/ID%20%E6%B7%B1%E6%8E%98%E3%82%8A%E3%83%9E%E3%83%8B%E3%82%A2.png",
+    "type": "ID",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-II 共感マスター.png",
+    "filename": "II 共感マスター.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/II%20%E5%85%B1%E6%84%9F%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC.png",
+    "type": "II",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-IP 助っ人ヒーロー.png",
+    "filename": "IP 助っ人ヒーロー.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/IP%20%E5%8A%A9%E3%81%A3%E4%BA%BA%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC.png",
+    "type": "IP",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-PA 二面性の魔術師.png",
+    "filename": "PA 二面性の魔術師.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/PA%20%E4%BA%8C%E9%9D%A2%E6%80%A7%E3%81%AE%E9%AD%94%E8%A1%93%E5%B8%AB.png",
+    "type": "PA",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-PD 突破のカリスマ.png",
+    "filename": "PD 突破のカリスマ.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/PD%20%E7%AA%81%E7%A0%B4%E3%81%AE%E3%82%AB%E3%83%AA%E3%82%B9%E3%83%9E.png",
+    "type": "PD",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-PI 愛されの天才.png",
+    "filename": "PI 愛されの天才.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/PI%20%E6%84%9B%E3%81%95%E3%82%8C%E3%81%AE%E5%A4%A9%E6%89%8D.png",
+    "type": "PI",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "クリーチャー3D-PP チームの太陽.png",
+    "filename": "PP チームの太陽.png",
+    "path": "/assets/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC3D/PP%20%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E5%A4%AA%E9%99%BD.png",
+    "type": "PP",
+    "category": "クリーチャー3D"
+  },
+  {
+    "id": "シアトリズム_GPT-AA — 歩くWikipedia（学者）.png",
+    "filename": "AA — 歩くWikipedia（学者）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_GPT/AA%20%E2%80%94%20%E6%AD%A9%E3%81%8FWikipedia%EF%BC%88%E5%AD%A6%E8%80%85%EF%BC%89.png",
+    "type": "AA",
+    "category": "シアトリズム_GPT"
+  },
+  {
+    "id": "シアトリズム_GPT-AD — 氷の頭脳（魔法剣士）.png",
+    "filename": "AD — 氷の頭脳（魔法剣士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_GPT/AD%20%E2%80%94%20%E6%B0%B7%E3%81%AE%E9%A0%AD%E8%84%B3%EF%BC%88%E9%AD%94%E6%B3%95%E5%89%A3%E5%A3%AB%EF%BC%89.png",
+    "type": "AD",
+    "category": "シアトリズム_GPT"
+  },
+  {
+    "id": "シアトリズム_GPT-DD — ゲームチェンジャー（暗黒騎士）.png",
+    "filename": "DD — ゲームチェンジャー（暗黒騎士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_GPT/DD%20%E2%80%94%20%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%88%E6%9A%97%E9%BB%92%E9%A8%8E%E5%A3%AB%EF%BC%89.png",
+    "type": "DD",
+    "category": "シアトリズム_GPT"
+  },
+  {
+    "id": "シアトリズム_GPT-PP — チームの太陽（吟遊詩人）.png",
+    "filename": "PP — チームの太陽（吟遊詩人）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_GPT/PP%20%E2%80%94%20%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E5%A4%AA%E9%99%BD%EF%BC%88%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA%EF%BC%89.png",
+    "type": "PP",
+    "category": "シアトリズム_GPT"
+  },
+  {
+    "id": "シアトリズム_nanobanana-AA — 歩くWikipedia（学者）.png",
+    "filename": "AA — 歩くWikipedia（学者）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/AA%20%E2%80%94%20%E6%AD%A9%E3%81%8FWikipedia%EF%BC%88%E5%AD%A6%E8%80%85%EF%BC%89.png",
+    "type": "AA",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-AD — 氷の頭脳（魔法剣士）.png",
+    "filename": "AD — 氷の頭脳（魔法剣士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/AD%20%E2%80%94%20%E6%B0%B7%E3%81%AE%E9%A0%AD%E8%84%B3%EF%BC%88%E9%AD%94%E6%B3%95%E5%89%A3%E5%A3%AB%EF%BC%89.png",
+    "type": "AD",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-DD — ゲームチェンジャー（暗黒騎士）.png",
+    "filename": "DD — ゲームチェンジャー（暗黒騎士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/DD%20%E2%80%94%20%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%88%E6%9A%97%E9%BB%92%E9%A8%8E%E5%A3%AB%EF%BC%89.png",
+    "type": "DD",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-DP — 大将気質（将軍）.png",
+    "filename": "DP — 大将気質（将軍）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/DP%20%E2%80%94%20%E5%A4%A7%E5%B0%86%E6%B0%97%E8%B3%AA%EF%BC%88%E5%B0%86%E8%BB%8D%EF%BC%89.png",
+    "type": "DP",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-IP — 助っ人ヒーロー（勇者）.png",
+    "filename": "IP — 助っ人ヒーロー（勇者）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/IP%20%E2%80%94%20%E5%8A%A9%E3%81%A3%E4%BA%BA%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%EF%BC%88%E5%8B%87%E8%80%85%EF%BC%89.png",
+    "type": "IP",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-PA — 二面性の魔術師（赤魔道士）.png",
+    "filename": "PA — 二面性の魔術師（赤魔道士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/PA%20%E2%80%94%20%E4%BA%8C%E9%9D%A2%E6%80%A7%E3%81%AE%E9%AD%94%E8%A1%93%E5%B8%AB%EF%BC%88%E8%B5%A4%E9%AD%94%E9%81%93%E5%A3%AB%EF%BC%89.png",
+    "type": "PA",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-PD — 突破のカリスマ（竜騎士）.png",
+    "filename": "PD — 突破のカリスマ（竜騎士）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/PD%20%E2%80%94%20%E7%AA%81%E7%A0%B4%E3%81%AE%E3%82%AB%E3%83%AA%E3%82%B9%E3%83%9E%EF%BC%88%E7%AB%9C%E9%A8%8E%E5%A3%AB%EF%BC%89.png",
+    "type": "PD",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-PI — 愛されの天才（踊り子）.png",
+    "filename": "PI — 愛されの天才（踊り子）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/PI%20%E2%80%94%20%E6%84%9B%E3%81%95%E3%82%8C%E3%81%AE%E5%A4%A9%E6%89%8D%EF%BC%88%E8%B8%8A%E3%82%8A%E5%AD%90%EF%BC%89.png",
+    "type": "PI",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "シアトリズム_nanobanana-PP — チームの太陽（吟遊詩人）.png",
+    "filename": "PP — チームの太陽（吟遊詩人）.png",
+    "path": "/assets/%E3%82%B7%E3%82%A2%E3%83%88%E3%83%AA%E3%82%BA%E3%83%A0_nanobanana/PP%20%E2%80%94%20%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E5%A4%AA%E9%99%BD%EF%BC%88%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA%EF%BC%89.png",
+    "type": "PP",
+    "category": "シアトリズム_nanobanana"
+  },
+  {
+    "id": "別パターン-AP — 頼れる右腕（ナイト）.png",
+    "filename": "AP — 頼れる右腕（ナイト）.png",
+    "path": "/assets/%E5%88%A5%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/AP%20%E2%80%94%20%E9%A0%BC%E3%82%8C%E3%82%8B%E5%8F%B3%E8%85%95%EF%BC%88%E3%83%8A%E3%82%A4%E3%83%88%EF%BC%89.png",
+    "type": "AP",
+    "category": "別パターン"
+  },
+  {
+    "id": "別パターン-DP — 大将気質（将軍）.png",
+    "filename": "DP — 大将気質（将軍）.png",
+    "path": "/assets/%E5%88%A5%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/DP%20%E2%80%94%20%E5%A4%A7%E5%B0%86%E6%B0%97%E8%B3%AA%EF%BC%88%E5%B0%86%E8%BB%8D%EF%BC%89.png",
+    "type": "DP",
+    "category": "別パターン"
+  },
+  {
+    "id": "別パターン-PA — 二面性の魔術師（赤魔道士）.png",
+    "filename": "PA — 二面性の魔術師（赤魔道士）.png",
+    "path": "/assets/%E5%88%A5%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/PA%20%E2%80%94%20%E4%BA%8C%E9%9D%A2%E6%80%A7%E3%81%AE%E9%AD%94%E8%A1%93%E5%B8%AB%EF%BC%88%E8%B5%A4%E9%AD%94%E9%81%93%E5%A3%AB%EF%BC%89.png",
+    "type": "PA",
+    "category": "別パターン"
+  },
+  {
+    "id": "別パターン-PD — 突破のカリスマ（竜騎士）.png",
+    "filename": "PD — 突破のカリスマ（竜騎士）.png",
+    "path": "/assets/%E5%88%A5%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3/PD%20%E2%80%94%20%E7%AA%81%E7%A0%B4%E3%81%AE%E3%82%AB%E3%83%AA%E3%82%B9%E3%83%9E%EF%BC%88%E7%AB%9C%E9%A8%8E%E5%A3%AB%EF%BC%89.png",
+    "type": "PD",
+    "category": "別パターン"
+  }
+]
