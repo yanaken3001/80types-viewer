@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import characterData from './data/characters.json';
+import dynamicCharacters from './data/characterLoader';
 import type { Character } from './types';
 import { Gallery } from './components/Gallery';
 import { Compare } from './components/Compare';
@@ -7,7 +7,7 @@ import { ImageModal } from './components/ImageModal';
 import { LayoutGrid, ArrowLeftRight } from 'lucide-react';
 
 export default function App() {
-  const characters = characterData as Character[];
+  const characters = dynamicCharacters as Character[];
   const categories = useMemo(() => Array.from(new Set(characters.map(c => c.category))), [characters]);
   
   const [viewMode, setViewMode] = useState<'gallery' | 'compare'>('gallery');
