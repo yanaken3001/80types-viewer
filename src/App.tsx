@@ -7,8 +7,15 @@ import { ImageModal } from './components/ImageModal';
 import { LayoutGrid, ArrowLeftRight } from 'lucide-react';
 
 export default function App() {
-  const characters = dynamicCharacters as Character[];
-  const categories = useMemo(() => Array.from(new Set(characters.map(c => c.category))), [characters]);
+  const categories = useMemo(() => {
+    const cats = Array.from(new Set(characters.map(c => c.category)));
+    return cats.sort((a, b) => {
+      // 「別パターン」を常に最後（一番右）にする
+      if (a === '別パターン') return 1;
+      if (b === '別パターン') return -1;
+      return a.localeCompare(b);
+    });
+  }, [characters]);
   
   const [viewMode, setViewMode] = useState<'gallery' | 'compare'>('gallery');
   const [activeCategory, setActiveCategory] = useState<string>(categories[0] || '');
