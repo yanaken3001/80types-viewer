@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ImageIcon } from 'lucide-react';
 import type { Character } from '../types';

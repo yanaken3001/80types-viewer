@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import characterData from './data/characters.json';
 import type { Character } from './types';
 import { Gallery } from './components/Gallery';
