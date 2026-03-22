@@ -8,9 +8,27 @@ interface CompareProps {
 }
 
 export function Compare({ characters, onSelectCharacter }: CompareProps) {
-  // Extract unique types (e.g., 'AA', 'AD'...)
+  // P, I, A, D の順でグループ化し、同じ文字の繰り返し（例：PP）をトップにする
   const types = useMemo(() => {
-    return Array.from(new Set(characters.map(c => c.type))).sort();
+    const rawTypes = Array.from(new Set(characters.map(c => c.type)));
+    const groupOrder: Record<string, number> = { 'P': 0, 'I': 1, 'A': 2, 'D': 3 };
+    
+    return rawTypes.sort((a, b) => {
+      const aGroup = a.charAt(0).toUpperCase();
+      const bGroup = b.charAt(0).toUpperCase();
+      const aOrder = groupOrder[aGroup] ?? 99;
+      const bOrder = groupOrder[bGroup] ?? 99;
+      
+      // 1. P, I, A, D のグループ順
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      
+      // 2. グループ内ではゾロ目（PPなど）を一番上にする
+      if (a[0] === a[1] && b[0] !== b[1]) return -1;
+      if (b[0] === b[1] && a[0] !== a[1]) return 1;
+      
+      // 3. それ以外はアルファベット順
+      return a.localeCompare(b);
+    });
   }, [characters]);
 
   const [activeType, setActiveType] = useState<string>(types[0] || '');
